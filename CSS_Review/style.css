@@ -1,0 +1,26 @@
+body{
+	background: #000;
+	color: white;
+	padding: 0;
+	margin: 0;
+
+}
+
+#topheader{
+	background: #333;
+	height: 50px;
+	padding: 10px;
+}
+
+#topheader h1{
+	font-family: arial;
+}
+.box{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin:20px;
+	background: white;
+	color:#333;
+
+}
