@@ -16,11 +16,21 @@ body{
 	font-family: arial;
 }
 .box{
-	width: 100px;
-	height: 100px;
+	width: 30%;
+	height: 300px;
 	padding: 10px;
 	margin:20px;
 	background: white;
 	color:#333;
+	float: left;
+	
 
+}
+
+
+.imgText{
+	font-size: 50px;
+	position: relative;
+	top:75px;
+	left: 100px;
 }

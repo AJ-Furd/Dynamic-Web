@@ -1,0 +1,145 @@
+body{
+	font-family: gill sans, arial, sans-serif;
+	color: #3a3a4a; /* dark purple*/
+	margin: 0;
+	padding: 0;
+}
+
+#container{
+	width: 1200px;
+	margin: auto;
+	box-shadow: 0px 0px 5px #9999;
+
+}
+
+header#top{
+	background: #e0ddd4;
+	padding: 20px 70px;
+}
+
+#logo{
+	float: left;
+}
+
+nav{
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+header nav ul li a:link{
+	color:#3a3a4a;
+	text-transform: uppercase;
+}
+
+.sm{
+	display: block;
+	width: 35px;
+	height: 35px;
+}
+
+a[href$="instagram.com"]{
+	background: url(../imgs/instagram.png);
+}
+
+a[href$="twitter.com"]{
+	background: url(../imgs/twitter.png);
+}
+
+#bannerText{
+	position: absolute;
+	bottom: 0;
+	color: #e0ddd4;
+}
+
+#bannerText h1{
+	font-size: 60px;
+	text-transform: uppercase;
+}
+
+#banner{
+	position: relative;
+}
+
+.col_720{
+	width: 720px;
+	float: left;
+	margin-right: 80px;
+}
+
+.col_260{
+	width: 260px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.imgQuote{
+	position: absolute;
+	color: #e0ddd4;
+	padding: 20px;
+}
+
+.asideText{
+	text-align: center;
+	padding:20px;
+}
+
+aside{ 
+	background:#e0ddd4;
+}
+
+footer{
+	background: #3a3a4a;
+	color: #e0ddd4;
+
+
+}
+
+.wrap{
+	padding: 75px 70px;
+}
+
+/* TEXT ELEMENTS */
+
+h1, h2{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: cambria, georgia, serif;
+	font-size: 32px;
+	font-weight: normal;
+
+}
+
+h2{
+	font-size: 24px;
+}
+
+p{
+	font-size: 18px;
+	font-family: cambria, georgia, serif;
+}
+
+a:link{
+
+text-decoration: none;
+color:#189893;
+}
+
+.clearflt{
+	clear:both;
+
+}
