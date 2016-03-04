@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic);
+
+body{
+background-color: #31B89D;
+border-color: #382826; 
+border-width: -5px;
+border-style: solid;
+}
+/* potential background: #b84331 light red background */
+
+/*COLORS Blue- #288FC4 Green-#31B89D Red-#EB2738 */
+
+@font-face{
+	font-family: 'lato', sans-serif;
+	src:C:\Users\Andrew Furedy\Desktop\Assignment1\css\lato.zip() ;
+}
+
+.title{
+font-family: airstream;
+position: absolute;
+float:left;
+margin: 20px 50px;
+transform: rotate(-15deg);
+font-size: 175%;
+color:#EB2738;
+border-color: white;
+border-width:2px;
+
+}
+
+
+iframe{
+	top:25%;
+	width:80%;
+	margin: auto;
+	position: absolute;
+
+}
+
+.twitter-timeline{
+	top:100%;
+	margin: auto;
+	width: 100%;
+	position: absolute;
+}
