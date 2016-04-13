@@ -1,0 +1,307 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: 'Oswald', sans-serif;
+	background-color: #102739;
+    height: 200px;
+    background: #102739; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #102739 30%, #185685); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #102739 30%, #185685); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #102739 30%, #185685); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #102739 30%, #185685); /* Standard syntax (must be last) */
+
+}
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300&subset=latin,latin-ext);
+
+main {
+	max-width: 1200px;
+	padding: 2.5%;
+}
+
+img{
+	float:left;
+	top:10%;
+	width:33.33%;
+}
+
+/*Tweet share*/
+a.twitter-share-button{
+	position: absolute;
+	right:3%;
+	top:10%;
+	padding:10px;
+	
+
+}
+
+.welcome{
+	margin: auto;
+	position: absolute;
+	width: 450px;
+	height: 300px;
+	color:#838476;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	left:40%;
+	font-size:.75vw;
+}
+
+#gallery{
+	position: relative;
+	width: 70%;
+	height:auto;
+	top: 40%;
+	color:#838476;
+	padding:100px;
+	padding-left: 50%;
+	padding-top:35%;
+	
+	vertical-align: top;
+	font-size: 100%;
+
+}
+
+#gallery.img{
+	position: inline-block;
+	width:100%;
+	height: 70%;
+	margin-left:50%;
+	padding-bottom: 30px;
+}
+
+#gallery.title{
+	position: relative;
+	text-align: left;
+	font-size: 1em;
+
+}
+
+#gallery.firstname{
+	position:relative;
+	text-align:left;
+	font-size: 1em;
+
+}
+
+#gallery.location{
+	position: relative;
+	text-align: center;
+	font-size: 1em;
+
+}
+
+#gallery.userquote{
+	position: relative;
+	text-align:center;
+	font-size: 1em;
+
+
+}
+
+#gallery.node{
+	margin-top:40px;
+}
+
+node{
+	position: relative;
+}
+
+#widget{
+	color:#838476;
+	font-size: 1em;
+	position: absolute;
+	margin-left: 3%;
+	margin-top: 15%;
+	top:10%;
+	width: 300px;
+	height: 100px;
+	text-align:center;
+}
+
+#widget.twitter-timeline{
+	color:#838476;
+	font-size: 1em;
+	position: absolute;
+	margin-left: 3%;
+	margin-top: 15%;
+	width: 300px;
+	height: 100px;
+	text-align:center;
+}
+}
+
+figure {
+	width: 20%;
+	float: left;
+	margin: 0;
+	margin-right: 2.5%;
+}
+
+figure img {
+	width: 100%;
+}
+
+figcaption {
+	text-align: right;
+}
+
+.star {
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+	top: 4px;
+	width: 20px;
+	height: 20px;
+	background: url(../images/Gold_Star_off.svg);
+	background-size: 100%;
+}
+
+.star:active, .star.staron {
+	background: url(../images/Gold_Star.svg);
+}
+
+button{
+	background-color: #185685;
+	border:none;
+	margin: auto;
+	position: absolute;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color:#838476;
+	width:80%;
+	cursor: pointer;
+	border-radius:10px;
+}
+
+button:hover{
+	background-color:#102739;
+}
+
+#add {
+	display: inline-block;
+	background-color: #838476;
+	color: white;
+	padding: 1.96% 2.9%;
+	font-size: 3em;
+	width: 2vw;
+	text-decoration: none;
+	font-weight: normal;
+	text-align: center;
+	transition: background-color .75s ;
+	top:10%;
+	right:10%;
+	position: absolute;
+	border-radius: 10px;
+}
+
+#add:hover {
+	background-color: #185685;
+}
+
+#modal {
+  display: none;
+  padding: 40px 30px;
+  width: 40%;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  margin-left: -20%;
+  z-index: 1100;
+  background-color: #450F0E;
+  font-family: 'Oswald', sans-serif;
+  color:#838476;
+  border-radius: 15px;
+}
+
+
+#modal.h2{
+	text-align: center;
+}
+
+input {
+	display: block;
+	width: 96%;
+	padding: 2%;
+	margin: 5px 0 5px 0;
+}
+
+input:focus{
+	background-color: #185685;
+}
+
+
+input:invalid {
+	border: 1px solid red;
+}
+
+input:required {
+	border: none;
+}
+
+#overlay {
+	display: none;
+	background: black;
+	opacity: 0.8;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}
+.welcome.h2 {
+	text-transform: uppercase;
+	margin-top:10px;
+}
+
+#widget.h2{
+	color:#838476;
+	position: absolute;
+	margin-left:10;
+	top: 30%;
+}
+
+p.error {
+	font-size: 11px;
+	color: red;
+}
+
+.clearfix {
+	clear: both;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+       
+    }
+
+    #add{
+width: 25px;
+height:25px;
+padding:10px;
+text-align: center;
+font-size: 20px;
+    }
+
+    p.{
+    	top:20%;
+    	right:7%;
+    }
+    
+    #widget{
+    	display:none;
+    	visibility: none;
+    }
+
+    .welcome{
+	margin: auto;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	color:#838476;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	left:40%;
+	font-size:2vw;
+}
+     }
