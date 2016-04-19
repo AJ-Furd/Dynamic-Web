@@ -1,0 +1,7 @@
+var main = function () {
+    "use strict";
+
+    window.alert("Andrews great app");
+};
+
+$(document).ready(main);
